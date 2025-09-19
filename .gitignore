@@ -1,0 +1,69 @@
+# Compiled object files
+*.o
+*.out
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.out
+*.exe
+*.elf
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Profiling files
+gmon.out
+*.prof
+*.gcda
+*.gcno
+*.gcov
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Autotools
+/autom4te.cache
+/aclocal.m4
+/compile
+/config.guess
+/config.log
+/config.status
+/config.sub
+/configure
+/depcomp
+/install-sh
+/libtool
+/ltmain.sh
+/missing
+/Makefile.in
+
+# CMake
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/Makefile
+
+# Build directories
+/build/
+/bin/
+/obj/
+
