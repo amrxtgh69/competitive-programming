@@ -14,8 +14,15 @@ int array_duplication(int arr[], int size) {
 
 
 int main() {
-  int arr[] = {10, 20, 30, 40, 30, 60, 50};
+  int arr[] = {1, 2, 3, 5, 3, 4, 6};
   int size = sizeof(arr)/sizeof(arr[0]);
-  printf("Duplicate element is %d\n", array_duplication(arr, size));
+  
+  //this works only if arrays values are [0, size-1]
+
+  int dups = array_duplication(arr, size);
+  if (dups != -1)
+      printf("Duplicate element is %d\n", dups);
+  else
+   printf("No duplication found");
   return 0;
 }
