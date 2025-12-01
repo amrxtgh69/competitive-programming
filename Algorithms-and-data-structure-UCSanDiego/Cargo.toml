@@ -1,0 +1,19 @@
+[package]
+name = "Algorithms-and-data-structure-UCSanDiego"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[package]
+name = "Algorithms-and-data-structure-UCSanDiego"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "fibo"
+path = "src/fiboancci.rs"
+
+[[bin]]
+name = "lastdigit"
+path = "src/lastdigit.rs"
