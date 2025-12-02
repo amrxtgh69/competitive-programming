@@ -4,8 +4,6 @@
 // The greatest common divisor of two numbers is the largest positive integer that evenly divides both numbers.
 
 
-
-
 impl Solution {
     pub fn find_gcd(mut nums: Vec<i32>) -> i32 {
         nums.sort();
