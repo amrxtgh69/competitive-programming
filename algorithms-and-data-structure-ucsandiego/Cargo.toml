@@ -1,12 +1,12 @@
 [package]
-name = "Algorithms-and-data-structure-UCSanDiego"
+name = "algorithms-and-data-structure-ucsandiego"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
 
 [package]
-name = "Algorithms-and-data-structure-UCSanDiego"
+name = "algorithms-and-data-structure-ucsandiego"
 version = "0.1.0"
 edition = "2021"
 
