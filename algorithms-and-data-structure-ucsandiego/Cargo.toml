@@ -3,12 +3,6 @@ name = "algorithms-and-data-structure-ucsandiego"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
-
-[package]
-name = "algorithms-and-data-structure-ucsandiego"
-version = "0.1.0"
-edition = "2021"
 
 [[bin]]
 name = "fibo"
@@ -17,3 +11,7 @@ path = "src/fiboancci.rs"
 [[bin]]
 name = "lastdigit"
 path = "src/lastdigit.rs"
+
+[[bin]]
+name = "fibomod"
+path = "src/fibonaccimod.rs"

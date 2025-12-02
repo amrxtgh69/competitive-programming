@@ -1,0 +1,350 @@
+   0.015419338s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="algorithms-and-data-structure-ucsandiego"}: cargo::core::compiler::fingerprint: fingerprint error for algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego)/Check { test: false }/TargetInner { name: "algorithms-and-data-structure-ucsandiego", doc: true, ..: with_path("/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/src/main.rs", Edition2024) }
+   0.015441986s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="algorithms-and-data-structure-ucsandiego"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/target/debug/.fingerprint/algorithms-and-data-structure-ucsandiego-a9dfe31c3f270159/bin-algorithms-and-data-structure-ucsandiego`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/core/src/ops/function.rs:287:21
+  15: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  16: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  17: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:175:24
+  19: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  20: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  21: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:171:5
+  23: main
+  24: <unknown>
+  25: __libc_start_main
+  26: <unknown>
+   0.024255048s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="algorithms-and-data-structure-ucsandiego"}: cargo::core::compiler::fingerprint: fingerprint error for algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego)/Check { test: true }/TargetInner { name: "algorithms-and-data-structure-ucsandiego", doc: true, ..: with_path("/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/src/main.rs", Edition2024) }
+   0.024273936s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="algorithms-and-data-structure-ucsandiego"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/target/debug/.fingerprint/algorithms-and-data-structure-ucsandiego-83ccff6592557647/test-bin-algorithms-and-data-structure-ucsandiego`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/core/src/ops/function.rs:287:21
+  15: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  16: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  17: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:175:24
+  19: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  20: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  21: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:171:5
+  23: main
+  24: <unknown>
+  25: __libc_start_main
+  26: <unknown>
+   0.024583826s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="fibo"}: cargo::core::compiler::fingerprint: fingerprint error for algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego)/Check { test: false }/TargetInner { name: "fibo", doc: true, ..: with_path("/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/src/fiboancci.rs", Edition2024) }
+   0.024598688s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="fibo"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/target/debug/.fingerprint/algorithms-and-data-structure-ucsandiego-444d22102801da32/bin-fibo`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/core/src/ops/function.rs:287:21
+  15: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  16: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  17: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:175:24
+  19: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  20: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  21: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:171:5
+  23: main
+  24: <unknown>
+  25: __libc_start_main
+  26: <unknown>
+   0.024861319s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="fibo"}: cargo::core::compiler::fingerprint: fingerprint error for algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego)/Check { test: true }/TargetInner { name: "fibo", doc: true, ..: with_path("/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/src/fiboancci.rs", Edition2024) }
+   0.024876885s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="fibo"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/target/debug/.fingerprint/algorithms-and-data-structure-ucsandiego-1bf4050755da7926/test-bin-fibo`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/core/src/ops/function.rs:287:21
+  15: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  16: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  17: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:175:24
+  19: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  20: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  21: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:171:5
+  23: main
+  24: <unknown>
+  25: __libc_start_main
+  26: <unknown>
+   0.025164556s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="fibomod"}: cargo::core::compiler::fingerprint: fingerprint error for algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego)/Check { test: false }/TargetInner { name: "fibomod", doc: true, ..: with_path("/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/src/fibonaccimod.rs", Edition2024) }
+   0.025174648s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="fibomod"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/target/debug/.fingerprint/algorithms-and-data-structure-ucsandiego-80948bba0a4d6af3/bin-fibomod`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/core/src/ops/function.rs:287:21
+  15: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  16: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  17: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:175:24
+  19: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  20: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  21: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:171:5
+  23: main
+  24: <unknown>
+  25: __libc_start_main
+  26: <unknown>
+   0.025339651s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="fibomod"}: cargo::core::compiler::fingerprint: fingerprint error for algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego)/Check { test: true }/TargetInner { name: "fibomod", doc: true, ..: with_path("/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/src/fibonaccimod.rs", Edition2024) }
+   0.025348377s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="fibomod"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/target/debug/.fingerprint/algorithms-and-data-structure-ucsandiego-5db24295ad938fb5/test-bin-fibomod`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/core/src/ops/function.rs:287:21
+  15: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  16: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  17: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:175:24
+  19: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  20: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  21: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:171:5
+  23: main
+  24: <unknown>
+  25: __libc_start_main
+  26: <unknown>
+   0.025557839s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="lastdigit"}: cargo::core::compiler::fingerprint: fingerprint error for algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego)/Check { test: false }/TargetInner { name: "lastdigit", doc: true, ..: with_path("/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/src/lastdigit.rs", Edition2024) }
+   0.025567478s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="lastdigit"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/target/debug/.fingerprint/algorithms-and-data-structure-ucsandiego-dbce94835da50963/bin-lastdigit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/core/src/ops/function.rs:287:21
+  15: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  16: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  17: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:175:24
+  19: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  20: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  21: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:171:5
+  23: main
+  24: <unknown>
+  25: __libc_start_main
+  26: <unknown>
+   0.025720861s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="lastdigit"}: cargo::core::compiler::fingerprint: fingerprint error for algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego)/Check { test: true }/TargetInner { name: "lastdigit", doc: true, ..: with_path("/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/src/lastdigit.rs", Edition2024) }
+   0.025729380s  INFO prepare_target{force=false package_id=algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego) target="lastdigit"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/target/debug/.fingerprint/algorithms-and-data-structure-ucsandiego-6f10a1662ae54c68/test-bin-lastdigit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::main
+  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  13: std::rt::lang_start::<()>::{closure#0}
+  14: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/core/src/ops/function.rs:287:21
+  15: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  16: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  17: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  18: std::rt::lang_start_internal::{{closure}}
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:175:24
+  19: std::panicking::catch_unwind::do_call
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:590:40
+  20: std::panicking::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panicking.rs:553:19
+  21: std::panic::catch_unwind
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/panic.rs:359:14
+  22: std::rt::lang_start_internal
+             at /rustc/f8297e351a40c1439a467bbbb6879088047f50b3/library/std/src/rt.rs:171:5
+  23: main
+  24: <unknown>
+  25: __libc_start_main
+  26: <unknown>
+    Checking algorithms-and-data-structure-ucsandiego v0.1.0 (/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego)
+error: could not compile `algorithms-and-data-structure-ucsandiego` (bin "fibo") due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `algorithms-and-data-structure-ucsandiego` (bin "fibo" test) due to 1 previous error
+error: could not compile `algorithms-and-data-structure-ucsandiego` (bin "lastdigit") due to 2 previous errors
+error: could not compile `algorithms-and-data-structure-ucsandiego` (bin "lastdigit" test) due to 2 previous errors
