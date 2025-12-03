@@ -1,1 +1,0 @@
-/home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/target/debug/insertion_sort: /home/amrxtgh/competitive-programming/algorithms-and-data-structure-ucsandiego/src/bin/insertion_sort.rs
