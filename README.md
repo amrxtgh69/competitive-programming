@@ -1,4 +1,5 @@
 # competitive-programming
 **doing data structures and algorithms from uc san diego**
 [course link](www.edx.org/masters/micromasters/ucsandiegox-algorithms-and-data-structures)
-**practising the algorithms from the very good book intro to algorithms by CLRS**
+
+**Practising the algorithms from the very good book intro to algorithms by CLRS**
